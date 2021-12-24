@@ -24,7 +24,7 @@ At first; I trained a deeplearn model using numpy and shape (48, 1, 1), however 
  </p>
  <p>
 <h2>Improvements</h2>
-React could be used to improve the layout of the front end. Implement a back/again button. If this project was a public website, using concurrency and parallel programming would increase processing speed. Adding more functions such as ethnicity detection, face-mask detection, celebrity look-alike, etc. would further enhance the experience. 
+React could be used to improve the layout of the front end. Implement a back/again button. If this project was a public website, using concurrency and parallel programming would increase processing speed. Adding more functions such as ethnicity detection, face-mask detection, celebrity look-alike, etc. would further enhance the experience. Using javascript, a pop-up menu could be used instead of redirecting users to another html page.
  </p>
  <p>
 <h2>Conclusion</h2>
