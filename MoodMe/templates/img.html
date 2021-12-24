@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+	<meta charset="UTF-8">
+	<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+	<title>Mood-Me Project</title>
+	<link rel='stylesheet' href='../static/css/prof.css'>
+</head>
+
+
+<body>
+	
+{% if filename %}
+
+<section class="main">
+<div class='container'>
+<div class="upper-container"></div>
+
+
+<div class="img-sec">
+
+	<img src='{{ url_for('static',filename='Images/'+filename)}}'>
+
+</div>
+
+<div class="card-body">
+	<div class="activity-container">
+		<h4>{{age}}<span class="act">Age</span></h4>
+		<h4>{{gender}}<span class="act">Gender</span></h4>
+		<h4>{{mood}}<span class="act">Mood</span></h4>
+	</div>
+</div>
+</section>
+
+{% endif %}
+
+
+
+</body>
+
+</html>
+

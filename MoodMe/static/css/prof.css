@@ -1,0 +1,139 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,300);
+
+
+*{
+
+	margin: 0;
+
+	padding: 0;
+
+	box-sizing: border-box;
+
+}
+
+body {
+	font-family: "Lato", sans-serif;
+	font-size: 18px;
+
+	color: hsl(229, 23%, 23%);
+
+
+}
+
+.main {
+	background: -webkit-linear-gradient(to right, #514A9D, #24C6DC);
+
+	background: linear-gradient(to right, #514A9D, #24C6DC);
+	
+	min-height: 100vh;
+
+	display: flex;
+
+	justify-content: center;
+
+	align-items: center;
+
+}
+
+.container {
+	background: hsl(0, 0%, 100%);
+
+	text-align: center;
+
+	max-width: 350px;
+
+	border-radius: 15px;
+
+	overflow: hidden;
+
+}
+
+.upper-container {
+
+	height: 150px;
+
+	width: 350px;
+	background: -webkit-linear-gradient(to right, #514A9D, #24C6DC);
+
+	background: linear-gradient(to right, #514A9D, #24C6DC);
+	background-size: cover;
+
+}
+
+
+.img-sec {
+
+	width: 100px;
+
+	height: 100px;
+
+	border-radius: 50%;
+
+	overflow: hidden;
+
+	margin: -50px auto -30px auto;
+
+	border: 5px solid hsl(0, 0%, 100%);
+}
+
+
+.img-sec img{
+
+	display: block;
+
+	height: auto;
+
+	width: 100%;
+
+}
+
+
+.card-body {
+	margin-top: 54px;
+
+	margin-bottom: -75px;
+
+	height: 250px;
+
+	line-height: 1.8rem;
+
+}
+
+.activity-container.act{
+	display: block;
+
+	font-weight: 300;
+
+	font-size: .9rem;
+
+	color: hsl(0, 0%, 59%);
+
+	letter-spacing: .1rem;
+
+}
+
+
+.activity-container {
+
+	padding-top: 22px;
+
+	padding-right: 40px;
+
+	border-top: 1px solid hsl(0, 10%, 88%);
+
+	padding-left: 40px;
+
+	margin-top: 23px;
+
+	display: flex;
+
+	align-items: center;
+
+	justify-content: space-between;
+
+	flex-direction: row;
+
+
+
+
+}
