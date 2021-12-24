@@ -76,21 +76,18 @@ I enjoyed this experience and learned a lot more about visionAI and web design.
 ## Roadmap
 
 Features:
-        * Predict age
-        * Predict mood
-        * Predict gender
-        * Generate profile card
-
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
+        <ul>
+  <li>Predict age</li>
+  <li>Predict mood</li>
+  <li>Predict gender</li>
+  <li>Generate profile card</li>
+        </ul>
 
 
 
 
 
 
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
