@@ -64,9 +64,9 @@ I enjoyed this experience and learned a lot more about visionAI and web design.
 <!-- USAGE EXAMPLES -->
 ## Usage
 1.) Upload a photo into the main page.
-2.) Recieve profile card of photo that includes age, mood, and gender.
-
 ![Screen_Shot_2021-12-24_at_2 15 27_PM](https://user-images.githubusercontent.com/83558837/147373803-74657a03-c437-489d-80c0-b70f973848af.png)
+
+2.) Recieve profile card of photo that includes age, mood, and gender.
 ![Screen_Shot_2021-12-24_at_4 20 06_PM](https://user-images.githubusercontent.com/83558837/147373797-b8bb23ca-4308-44d0-837f-e1558b20f63d.png)
 <p align="right">(<a href="#top">back to top</a>)</p>
 
