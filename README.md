@@ -28,7 +28,7 @@ React could be used to improve the layout of the front end. Implement a back/aga
  </p>
  <p>
 <h2>Conclusion</h2>
-I enjoyed this experience and learned a lot more about visionAI and web design. The debugging process took the most time. This is because I had experience in building Flask/Django projects, which made it easier to understand how to connect the front/backend. 
+I enjoyed this experience and learned a lot more about visionAI and web design. The debugging process took the most time. This is because I had experience in building Flask/Django projects, which made it easier to understand how to connect the front/backend. The models are not perfect and there is many more ways to add improvements to this project.
 </p>
 
 
