@@ -39,7 +39,7 @@ I enjoyed this experience and learned a lot more about visionAI and web design. 
   <li>Opencv(https://opencv.org/)</li>
   <li>deepFace(https://github.com/serengil/deepface)</li>
 </ul>
-<p align="right">(<a href="#top">back to top</a>)</p>
+
 
 
 
