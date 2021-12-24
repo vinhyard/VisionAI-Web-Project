@@ -44,6 +44,7 @@ I enjoyed this experience and learned a lot more about visionAI and web design. 
 
 
 <!-- GETTING STARTED -->
+<p>
 <h1>Getting Started<h1>
   <ol>
     <li>start virtualenv</li>
@@ -58,10 +59,7 @@ I enjoyed this experience and learned a lot more about visionAI and web design. 
     <li>'127.0.0.1:5000/main' in browser to reach main page</li>
   </ol>
 
-
-
-
-<p align="right">(<a href="#top">back to top</a>)</p>
+  </p>
 
 
 
