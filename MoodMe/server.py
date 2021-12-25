@@ -22,12 +22,12 @@ def img(filename,age, gender, mood):
 @app.route('/main',methods=['POST', "GET"])
 def upload_image():
     if request.method == "POST":
-        print(request.files)
+      
         #capture file name
-        print('test0')
+      
         image = request.files['file-upload-field']
-        print(image)
-        print('test4')
+      
+   
         #if file has no name
         if image.filename == '':
             print("File name is invalid")
