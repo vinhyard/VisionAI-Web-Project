@@ -6,7 +6,7 @@
 <h3 align="center">VisionAI-Web-Project</h3>
 
   <p align="center">
-    This project uses open-sourced neural networks to create a trait profit for an individual in a photo. 
+    This project uses open-sourced neural networks to create a trait profile for an individual in a photo. 
   
  
 
