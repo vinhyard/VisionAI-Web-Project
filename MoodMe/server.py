@@ -33,19 +33,19 @@ def upload_image():
             print("File name is invalid")
             
             return redirect(request.url)
-        print('test3')
+  
         filename = secure_filename(image.filename)
-        print("test1")
+   
         #access directory of folder to upload our file.
         basedir = os.path.abspath(os.path.dirname(__file__))
         image.save(os.path.join(basedir, app.config['IMAGE_UPLOADS'], filename))
-        print("test2")
+   
         #predict mood
         mood = face_exp2.face_exp(f'static/Images/{filename}')
         mood[0].upper()
-        print(mood)
+     
         age, gender = age_gender.read_img(f'static/Images/{filename}')
-        print(age, gender)
+  
         return redirect(url_for('img', filename=filename, age=age, gender=gender, mood=mood))
     return render_template("main.html")
 
