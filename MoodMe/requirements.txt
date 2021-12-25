@@ -1,9 +1,7 @@
 flask
 os
 opencv-python
-google.colab.patches
-numpy
-pandas
+
 tensorflow
 matplotlib
 sklearn
