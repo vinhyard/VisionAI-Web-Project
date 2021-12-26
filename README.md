@@ -23,6 +23,10 @@ the predicted age, mood, and gender of the individual in the photo.
 At first; I trained a deeplearn model using numpy and shape (48, 1, 1), however when I tested photos on the program I could not reshape the image to (48, 48). This was costly in time and if I looked for multiple different options in the beginning, I could have saved a few hours in time. My Mac was also unable to utilize some of the DeepLearn models. The dataset used to train the models at first were not accurate, and had a val-accuracy of about 56%. 
  </p>
  <p>
+<h2>Deployment<h2>
+  I spent all of Christmas attempting to deploy this application. After using PythonAnywhere, Heroku, and AWS EB, I had no other options. The main issue was that tensorflow used about 500mb and that was the whole upload limit for my site. I tried many different options such as changing code, removing models, and there was no luck. Eventually, I bought $20 worth of extra RAM in order to fully download Tensorflow. After recieving more ram, the dependencies were installed but I ran into another issue. The images that were being uploaded were not recieved and processed. Images were returning None so I changed the link to static files to include the entire directory. This solved the problem and the application was successfully deployed. The main issue still, is the lack of speed in predicting the ages, mood. and gender.
+  </p>
+ <p> 
 <h2>Improvements</h2>
 React could be used to improve the layout of the front end. Implement a back/again button. If this project was a public website, using concurrency and parallel programming would increase processing speed. Adding more functions such as ethnicity detection, face-mask detection, celebrity look-alike, etc. would further enhance the experience. Using javascript, a pop-up menu could be used instead of redirecting users to another html page.
  </p>
